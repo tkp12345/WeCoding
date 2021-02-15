@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/WeCoding/static/css/main.f943d792.chunk.css",
-    "main.js": "/WeCoding/static/js/main.217a5c12.chunk.js",
-    "main.js.map": "/WeCoding/static/js/main.217a5c12.chunk.js.map",
+    "main.js": "/WeCoding/static/js/main.9f84957c.chunk.js",
+    "main.js.map": "/WeCoding/static/js/main.9f84957c.chunk.js.map",
     "runtime-main.js": "/WeCoding/static/js/runtime-main.b33d38e6.js",
     "runtime-main.js.map": "/WeCoding/static/js/runtime-main.b33d38e6.js.map",
-    "static/js/2.0da74807.chunk.js": "/WeCoding/static/js/2.0da74807.chunk.js",
-    "static/js/2.0da74807.chunk.js.map": "/WeCoding/static/js/2.0da74807.chunk.js.map",
+    "static/js/2.d35c15ed.chunk.js": "/WeCoding/static/js/2.d35c15ed.chunk.js",
+    "static/js/2.d35c15ed.chunk.js.map": "/WeCoding/static/js/2.d35c15ed.chunk.js.map",
     "static/js/3.d1b77259.chunk.js": "/WeCoding/static/js/3.d1b77259.chunk.js",
     "static/js/3.d1b77259.chunk.js.map": "/WeCoding/static/js/3.d1b77259.chunk.js.map",
     "index.html": "/WeCoding/index.html",
     "static/css/main.f943d792.chunk.css.map": "/WeCoding/static/css/main.f943d792.chunk.css.map",
-    "static/js/2.0da74807.chunk.js.LICENSE.txt": "/WeCoding/static/js/2.0da74807.chunk.js.LICENSE.txt"
+    "static/js/2.d35c15ed.chunk.js.LICENSE.txt": "/WeCoding/static/js/2.d35c15ed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b33d38e6.js",
-    "static/js/2.0da74807.chunk.js",
+    "static/js/2.d35c15ed.chunk.js",
     "static/css/main.f943d792.chunk.css",
-    "static/js/main.217a5c12.chunk.js"
+    "static/js/main.9f84957c.chunk.js"
   ]
 }
