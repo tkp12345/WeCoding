@@ -1,6 +1,6 @@
  
 
-# WECOING 
+# WECODING 
 
 ## __Introduction__
 
@@ -8,7 +8,7 @@
 
 ------------
 
-"WECOING"  은 DM테크클래스 소프트웨어플랫폼 창업교실 기반 창업지원 아이디어 경진대회에서
+"WECODING "  은 DM테크클래스 소프트웨어플랫폼 창업교실 기반 창업지원 아이디어 경진대회에서
 
 본인이 생각했던 아이디어를 기반으로 가지고 만들었습니다
  
@@ -17,9 +17,10 @@
  
 ------------
  
-___WECOING 이란?___
+___WECODING  이란?___
 ------------
  
+*저작권 문제상 WECODING -> WECOING 으로 표기했습니다
 
 <img src = "https://user-images.githubusercontent.com/46067837/107916541-c9291100-6fa9-11eb-97a0-81495d8de930.png" width="600px">
 
