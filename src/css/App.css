@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  all: unset;
+}
+
+button {
+  text-decoration: none;
+}
+
+.App {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  z-index: 4000;
+  top: 0;
+  left: 0;
+}
+
+.header-nav {
+  border: 0px 40px;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-nav__title {
+  font-size: 35px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(rgb(255, 253, 119), rgb(255, 251, 2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -1px 0 rgb(75, 75, 75), 0 1px rgb(75, 75, 75),
+    1px 0 rgb(75, 75, 75), 0 -1px rgb(75, 75, 75);
+}
+
+.heder-nav__right {
+  display: flex;
+}
+
+.shopping_icon {
+  margin-right: 10px;
+}
+
+.carousel {
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  border: 0px 10px 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+  overflow: hidden;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.tool-container {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tool {
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 10px 10px -6px rgb(124, 124, 124);
+  transform: 2s;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.tool:hover {
+  cursor: pointer;
+  transform: translate(0, -5px);
+}
+
+.tool-icon {
+  margin: 0px 30px;
+  font-size: 2.5rem;
+}
+
+.tool-title {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.front-icon {
+  color: rgb(4, 129, 202);
+}
+
+.back-icon {
+  color: rgb(214, 148, 6);
+}
+
+.road-icon {
+  color: rgb(95, 95, 95);
+}
+
+.tool-title__maintitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.tool-title__subtitle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.title {
+  color: #1e1e1e;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.introduce_Wecoding {
+  margin: 10px 0px;
+  display: flex;
+  box-shadow: 0 -2px 15px 0 rgb(33 37 41 / 8%);
+}
+
+.introduce_Master {
+  margin: 0 20px;
+}
+
+.main-card {
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px -6px rgb(124, 124, 124);
+  border-radius: 8px;
+  transform: 2s;
+  margin: 10px 30px;
+}
+
+.main-card:hover {
+  box-shadow: 10px 10px 10px 0px rgb(124, 124, 124);
+  transform: translate(0, -5px);
+}
+
+.main-card__img {
+  width: 300px;
+  height: 150px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.main-card-main {
+  overflow: hidden;
+  display: flex;
+}
+
+.main-card__title {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.main-card__content__icon {
+}
+
+.main-card__content {
+  width: 100%;
+  height: 45px;
+  margin-top: 0.3rem;
+  color: rgb(27, 27, 27);
+  background: rgba(255, 255, 255, 0.932);
+}
+
+.main-card__content__header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.card__name {
+  margin-left: 10px;
+  line-height: 1.5;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  color: rgb(68, 68, 68);
+  font-weight: 700;
+}
+
+.card__class {
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  font-size: 12px;
+  margin-right: 7px;
+  padding: 4px 12px;
+  border-radius: 100px;
+  background-color: #173f51;
+  color: rgb(216, 216, 216);
+  font-weight: 700;
+}
+.main-card__content__title {
+  width: 100%;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 15px 10px;
+}
+
+.list {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.publish {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.publish input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 80%;
+  border: 2px solid grey;
+}
+
+.publish button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.wecoding-about {
+  width: 100%;
+  display: block;
+}
+.wecoding-about__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 10px 0px;
+  background: rgb(54, 54, 54);
+}
+
+.modal_C {
+  width: 80%;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 10px;
+  border: 1px solid #e9ecef;
+  background-color: #f8f9fa;
+}
+.modal_img {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.modal_title {
+  display: flex;
+  margin-bottom: 10px;
+  letter-spacing: -0.3px;
+  font-size: 24px;
+  line-height: 1.42;
+  color: #343a40;
+  font-weight: 700;
+}
+.font-about {
+  line-height: 1.5;
+  font-size: 30px;
+  letter-spacing: -0.3px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.methodBtn {
+  transform: 2s;
+  margin-left: 10px;
+  color: rgb(255, 231, 97);
+}
+
+.methodBtn:hover {
+  cursor: pointer;
+  transform: translate(0, -5px);
+}
+
+.purposeBtn {
+  transform: 2s;
+  margin-left: 10px;
+  color: rgb(108, 159, 255);
+}
+
+.purposeBtn:hover {
+  cursor: pointer;
+  transform: translate(0, -5px);
+}
+.footer {
+  border-radius: 20px 20px 0px 0px;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.footer-bar {
+  padding-right: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_icon {
+  font-size: 1.6rem;
+  color: rgb(241, 241, 241);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .footer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .tool-container {
+    display: none;
+  }
+}
