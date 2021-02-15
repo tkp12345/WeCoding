@@ -18,7 +18,9 @@
  
 ___WECOING 이란?___
 ------------
+<img src = "https://user-images.githubusercontent.com/46067837/107916541-c9291100-6fa9-11eb-97a0-81495d8de930.png" width="400px">
 
+출처: https://pongsoyun.tistory.com/125 [palette]
 ![제목을-입력해주세요 -1](https://user-images.githubusercontent.com/46067837/107916541-c9291100-6fa9-11eb-97a0-81495d8de930.png)
 ------------
 ![제목을-입력해주세요 -4](https://user-images.githubusercontent.com/46067837/107916545-c9c1a780-6fa9-11eb-9eff-43c659529046.png)
