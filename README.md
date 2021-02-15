@@ -19,13 +19,13 @@
  
 ___WECOING 이란?___
 ------------
-<img src = "https://user-images.githubusercontent.com/46067837/107916541-c9291100-6fa9-11eb-97a0-81495d8de930.png" width="600px">
+ 
 
 <img src = "https://user-images.githubusercontent.com/46067837/107916541-c9291100-6fa9-11eb-97a0-81495d8de930.png" width="600px">
 
 <img src = "https://user-images.githubusercontent.com/46067837/107916545-c9c1a780-6fa9-11eb-9eff-43c659529046.png" width="600px">
 
-<img src = "https://user-images.githubusercontent.com/46067837/107916541-c9291100-6fa9-11eb-97a0-81495d8de930.png" width="600px">
+<img src = "https://user-images.githubusercontent.com/46067837/107916545-c9c1a780-6fa9-11eb-9eff-43c659529046.png" width="600px">
 
 <img src = "https://user-images.githubusercontent.com/46067837/107916548-ca5a3e00-6fa9-11eb-9156-e4d0beff0e02.png" width="600px">
 
